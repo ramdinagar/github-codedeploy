@@ -1,3 +1,2 @@
 #!/bin/bash
-
-/etc/init.d/httpd stop
+systemctl stop httpd.service
